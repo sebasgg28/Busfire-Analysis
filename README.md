@@ -10,7 +10,7 @@ determine which factor are critical to potentially avoid a fire. On this approac
 
 ## Libraries
 
-- `ggplot2` - hola
+- `ggplot2` 
 - `caTools`
 - `reshape2`
 - `stats`
@@ -18,10 +18,11 @@ determine which factor are critical to potentially avoid a fire. On this approac
 - `caret`
 - `kernlab`
 
+
 ### Variables
 <br>
-`X` - x-axis spatial coordinate within the Montesinho park map: 1 to 9<br>
-`Y` - y-axis spatial coordinate within the Montesinho park map: 2 to 9<br>
+X - x-axis spatial coordinate within the Montesinho park map: 1 to 9 <br>
+Y - y-axis spatial coordinate within the Montesinho park map: 2 to 9<br>
 `month` - month of the year: 'jan' to 'dec'<br>
 `day` - day of the week: 'mon' to 'sun'<br>
 `FFMC` - FFMC index from the FWI system: 18.7 to 96.20<br>
@@ -39,3 +40,23 @@ determine which factor are critical to potentially avoid a fire. On this approac
 1) Multiple Linear Regression<br>
 2) SVM<br>
 3) Logistic Regression<br>
+
+## Data Exploration:
+
+### Loading Data
+
+![Imgur](https://imgur.com/4lnLvus.png)
+
+### Variables That Produced a Fire
+
+![Imgur](https://imgur.com/CNYhLQA.png)
+
+### Analysing Correlations
+
+![Imgur](https://imgur.com/uXPsIR4.png)
+
+This are just some techniques that where used to understand the data and get a glimpse of what we are dealing with.
+
+## Reference Paper
+
+P. Cortez and A. Morais. "A Data Mining Approach to Predict Forest Fires using Meteorological Data" http://www3.dsi.uminho.pt/pcortez/fires.pdf
