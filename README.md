@@ -1,12 +1,12 @@
-# Busfire-Analysis
+# Bushfire-Analysis
 Using R and advanced regression techniques to explore and predict bushfires from meteorological data. 
 
 ## Introduction
 
-Forest fires has been an issue which causes many damages such as habitat, structure and life loses. In some area the animal’s
-ecosystem is not able to recover and the human loss tally a big number. An extract from Paulo Cortez and Anibal Morais from
-there paper: “A Data Mining Approach to Predict Forest Fires using Meteorological Data” (you can find it here http://www3.dsi.uminho.pt/pcortez/fires.pdf), give us a new perspective on how to predict forest fires. Using sensors, the tell variables such as temperature, wind, humidity and rain, models can be developed to
-determine which factor are critical to potentially avoid a fire. On this approach we will measure different models to see which one is more accurate.
+Forest fires have been an issue that causes many damages such as habitat, structure, and life losses. In some areas, the animal’s
+ecosystem is not able to recover, and the human loss tally a big number. An extract from Paulo Cortez and Anibal Morais from
+their paper: “A Data Mining Approach to Predict Forest Fires using Meteorological Data” (you can find it here http://www3.dsi.uminho.pt/pcortez/fires.pdf), give us a new perspective on how to predict forest fires. Using sensors, the tell variables such as temperature, wind, humidity, and rain, models can be developed to
+determine which factors are critical to potentially avoid a fire. On this approach, we will measure different models to see which one is more accurate.
 
 ## Libraries
 
@@ -55,7 +55,7 @@ area - the burned area of the forest (in ha): 0.00 to 1090.84<br>
 
 ![Imgur](https://imgur.com/uXPsIR4.png)
 
-This are just some techniques that where used to understand the data and get a glimpse of what we are dealing with.
+These are just some techniques that were used to understand the data and get a glimpse of what we are dealing with.
 
 ## Reference Paper
 
